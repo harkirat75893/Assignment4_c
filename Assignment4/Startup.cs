@@ -27,7 +27,6 @@ namespace Assignment4
         {
             services.AddRazorPages();
             services.AddControllers();
-
             services.AddDbContext<AppDbContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("AppDbContext")));
             services.AddSwaggerGen(c =>

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroup')]/providers/Microsoft.Sql/servers/assignment-4dbserver/databases/Assignment_4_db",
+      "type": "mssql.azure",
+      "connectionId": "AppDbContext",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
